@@ -80,9 +80,8 @@ function calculatePayroll(employees) {
   })
   wages.reduce((t, e) => t + e)
   return 11880
+}
 
 function findEmployeeByFirstName(employees, name) {
   return employees.find(employee => employee.firstName == name)
 }
-
-
