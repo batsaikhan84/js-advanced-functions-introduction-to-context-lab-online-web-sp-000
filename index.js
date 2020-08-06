@@ -78,8 +78,8 @@ function calculatePayroll(employees) {
       }
       return hours.reduce((t, e) => t + e) * employee.payPerHour
   })
-  wages.reduce((t, e) => t + e)
-  return 11880
+  return wages.reduce((t, e) => t + e)
+  
 }
 
 function findEmployeeByFirstName(employees, name) {
